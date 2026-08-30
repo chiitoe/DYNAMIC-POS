@@ -8,6 +8,7 @@ public class Order {
     private int id;
     private List<Transaction> transactions = new ArrayList<>();
     private double total;
+    private int itemCount = 0;
 
     public Order(String name){
         this.name = name;
@@ -32,10 +33,15 @@ public class Order {
         return this.total;
     }
 
+    public int getItemCount(){
+        return this.itemCount;
+    }
+
     // methods
     public void addTransaction(Transaction transaction){
         transactions.add(transaction);
         total += transaction.getSubtotal();
+        itemCount += transaction.getQuantity();
     }
 
     @Override

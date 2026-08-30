@@ -1,0 +1,10 @@
+# Kurimi Bazaar Menu
+Signature Milk Tea w P,115
+Honey Peach Fruit Tea w PB,115
+Grape Fruit Tea w PB,115
+Lemon Fruit Tea w PB,115
+Watermelon Fruit Tea w PB,115
+Cocoa w P,110
+Blueberry w P,110
+Matcha w P,110
+Taro w P,110
